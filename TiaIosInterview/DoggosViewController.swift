@@ -16,7 +16,6 @@ class DoggosViewController: UIViewController {
     let clearButton = UIButton()
 
     @Published var selectedIndex: Int?
-    var cancellables = Set<AnyCancellable>()
 
     var urls = [URL]()
     var breeds = [String]()
@@ -107,7 +106,6 @@ class DoggosViewController: UIViewController {
                 }
                 self.breedButton.setTitle("\(breed) selected", for: .normal)
             }
-            .store(in: &cancellables)
     }
 
     @objc private func getButtonTapped() {
