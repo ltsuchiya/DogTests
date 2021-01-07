@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D10AC325A3AC8000E44DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10AC225A3AC8000E44DD4 /* AppDelegate.swift */; };
+		80D10AC525A3AC8000E44DD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10AC425A3AC8000E44DD4 /* SceneDelegate.swift */; };
+		80D10AC725A3AC8000E44DD4 /* DoggosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10AC625A3AC8000E44DD4 /* DoggosViewController.swift */; };
+		80D10ACA25A3AC8000E44DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D10AC825A3AC8000E44DD4 /* Main.storyboard */; };
+		80D10ACC25A3AC8200E44DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D10ACB25A3AC8200E44DD4 /* Assets.xcassets */; };
+		80D10ACF25A3AC8200E44DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D10ACD25A3AC8200E44DD4 /* LaunchScreen.storyboard */; };
+		80D10ADA25A3AC8200E44DD4 /* TiaIosInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10AD925A3AC8200E44DD4 /* TiaIosInterviewTests.swift */; };
+		80D10AE525A3AC8200E44DD4 /* TiaIosInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10AE425A3AC8200E44DD4 /* TiaIosInterviewUITests.swift */; };
+		80D10AF625A3AD1700E44DD4 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10AF525A3AD1700E44DD4 /* NetworkProvider.swift */; };
+		80D10AFB25A3AE7500E44DD4 /* NetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10AFA25A3AE7500E44DD4 /* NetworkModels.swift */; };
+		80D10B0125A3B51300E44DD4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 80D10B0025A3B51300E44DD4 /* Kingfisher */; };
+		80D10B0625A3B57A00E44DD4 /* DoggoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10B0525A3B57A00E44DD4 /* DoggoCell.swift */; };
+		80D10B0E25A3CB6000E44DD4 /* BreedPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D10B0D25A3CB6000E44DD4 /* BreedPickerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D10AD625A3AC8200E44DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D10AB725A3AC8000E44DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D10ABE25A3AC8000E44DD4;
+			remoteInfo = TiaIosInterview;
+		};
+		80D10AE125A3AC8200E44DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D10AB725A3AC8000E44DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D10ABE25A3AC8000E44DD4;
+			remoteInfo = TiaIosInterview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80D10ABF25A3AC8000E44DD4 /* TiaIosInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiaIosInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D10AC225A3AC8000E44DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D10AC425A3AC8000E44DD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80D10AC625A3AC8000E44DD4 /* DoggosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggosViewController.swift; sourceTree = "<group>"; };
+		80D10AC925A3AC8000E44DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D10ACB25A3AC8200E44DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D10ACE25A3AC8200E44DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D10AD025A3AC8200E44DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D10AD525A3AC8200E44DD4 /* TiaIosInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiaIosInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D10AD925A3AC8200E44DD4 /* TiaIosInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiaIosInterviewTests.swift; sourceTree = "<group>"; };
+		80D10ADB25A3AC8200E44DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D10AE025A3AC8200E44DD4 /* TiaIosInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiaIosInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D10AE425A3AC8200E44DD4 /* TiaIosInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiaIosInterviewUITests.swift; sourceTree = "<group>"; };
+		80D10AE625A3AC8200E44DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D10AF525A3AD1700E44DD4 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		80D10AFA25A3AE7500E44DD4 /* NetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModels.swift; sourceTree = "<group>"; };
+		80D10B0525A3B57A00E44DD4 /* DoggoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggoCell.swift; sourceTree = "<group>"; };
+		80D10B0D25A3CB6000E44DD4 /* BreedPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedPickerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D10ABC25A3AC8000E44DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D10B0125A3B51300E44DD4 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D10AD225A3AC8200E44DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D10ADD25A3AC8200E44DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D10AB625A3AC8000E44DD4 = {
+			isa = PBXGroup;
+			children = (
+				80D10AC125A3AC8000E44DD4 /* TiaIosInterview */,
+				80D10AD825A3AC8200E44DD4 /* TiaIosInterviewTests */,
+				80D10AE325A3AC8200E44DD4 /* TiaIosInterviewUITests */,
+				80D10AC025A3AC8000E44DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D10AC025A3AC8000E44DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D10ABF25A3AC8000E44DD4 /* TiaIosInterview.app */,
+				80D10AD525A3AC8200E44DD4 /* TiaIosInterviewTests.xctest */,
+				80D10AE025A3AC8200E44DD4 /* TiaIosInterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D10AC125A3AC8000E44DD4 /* TiaIosInterview */ = {
+			isa = PBXGroup;
+			children = (
+				80D10AC225A3AC8000E44DD4 /* AppDelegate.swift */,
+				80D10AC425A3AC8000E44DD4 /* SceneDelegate.swift */,
+				80D10AC625A3AC8000E44DD4 /* DoggosViewController.swift */,
+				80D10B0D25A3CB6000E44DD4 /* BreedPickerViewController.swift */,
+				80D10B0525A3B57A00E44DD4 /* DoggoCell.swift */,
+				80D10AF525A3AD1700E44DD4 /* NetworkProvider.swift */,
+				80D10AFA25A3AE7500E44DD4 /* NetworkModels.swift */,
+				80D10AC825A3AC8000E44DD4 /* Main.storyboard */,
+				80D10ACB25A3AC8200E44DD4 /* Assets.xcassets */,
+				80D10ACD25A3AC8200E44DD4 /* LaunchScreen.storyboard */,
+				80D10AD025A3AC8200E44DD4 /* Info.plist */,
+			);
+			path = TiaIosInterview;
+			sourceTree = "<group>";
+		};
+		80D10AD825A3AC8200E44DD4 /* TiaIosInterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D10AD925A3AC8200E44DD4 /* TiaIosInterviewTests.swift */,
+				80D10ADB25A3AC8200E44DD4 /* Info.plist */,
+			);
+			path = TiaIosInterviewTests;
+			sourceTree = "<group>";
+		};
+		80D10AE325A3AC8200E44DD4 /* TiaIosInterviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80D10AE425A3AC8200E44DD4 /* TiaIosInterviewUITests.swift */,
+				80D10AE625A3AC8200E44DD4 /* Info.plist */,
+			);
+			path = TiaIosInterviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D10ABE25A3AC8000E44DD4 /* TiaIosInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D10AE925A3AC8200E44DD4 /* Build configuration list for PBXNativeTarget "TiaIosInterview" */;
+			buildPhases = (
+				80D10ABB25A3AC8000E44DD4 /* Sources */,
+				80D10ABC25A3AC8000E44DD4 /* Frameworks */,
+				80D10ABD25A3AC8000E44DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiaIosInterview;
+			packageProductDependencies = (
+				80D10B0025A3B51300E44DD4 /* Kingfisher */,
+			);
+			productName = TiaIosInterview;
+			productReference = 80D10ABF25A3AC8000E44DD4 /* TiaIosInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D10AD425A3AC8200E44DD4 /* TiaIosInterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D10AEC25A3AC8200E44DD4 /* Build configuration list for PBXNativeTarget "TiaIosInterviewTests" */;
+			buildPhases = (
+				80D10AD125A3AC8200E44DD4 /* Sources */,
+				80D10AD225A3AC8200E44DD4 /* Frameworks */,
+				80D10AD325A3AC8200E44DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D10AD725A3AC8200E44DD4 /* PBXTargetDependency */,
+			);
+			name = TiaIosInterviewTests;
+			productName = TiaIosInterviewTests;
+			productReference = 80D10AD525A3AC8200E44DD4 /* TiaIosInterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80D10ADF25A3AC8200E44DD4 /* TiaIosInterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D10AEF25A3AC8200E44DD4 /* Build configuration list for PBXNativeTarget "TiaIosInterviewUITests" */;
+			buildPhases = (
+				80D10ADC25A3AC8200E44DD4 /* Sources */,
+				80D10ADD25A3AC8200E44DD4 /* Frameworks */,
+				80D10ADE25A3AC8200E44DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D10AE225A3AC8200E44DD4 /* PBXTargetDependency */,
+			);
+			name = TiaIosInterviewUITests;
+			productName = TiaIosInterviewUITests;
+			productReference = 80D10AE025A3AC8200E44DD4 /* TiaIosInterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D10AB725A3AC8000E44DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					80D10ABE25A3AC8000E44DD4 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					80D10AD425A3AC8200E44DD4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 80D10ABE25A3AC8000E44DD4;
+					};
+					80D10ADF25A3AC8200E44DD4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 80D10ABE25A3AC8000E44DD4;
+					};
+				};
+			};
+			buildConfigurationList = 80D10ABA25A3AC8000E44DD4 /* Build configuration list for PBXProject "TiaIosInterview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D10AB625A3AC8000E44DD4;
+			packageReferences = (
+				80D10AFF25A3B51300E44DD4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 80D10AC025A3AC8000E44DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D10ABE25A3AC8000E44DD4 /* TiaIosInterview */,
+				80D10AD425A3AC8200E44DD4 /* TiaIosInterviewTests */,
+				80D10ADF25A3AC8200E44DD4 /* TiaIosInterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D10ABD25A3AC8000E44DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D10ACF25A3AC8200E44DD4 /* LaunchScreen.storyboard in Resources */,
+				80D10ACC25A3AC8200E44DD4 /* Assets.xcassets in Resources */,
+				80D10ACA25A3AC8000E44DD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D10AD325A3AC8200E44DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D10ADE25A3AC8200E44DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D10ABB25A3AC8000E44DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D10B0625A3B57A00E44DD4 /* DoggoCell.swift in Sources */,
+				80D10AFB25A3AE7500E44DD4 /* NetworkModels.swift in Sources */,
+				80D10B0E25A3CB6000E44DD4 /* BreedPickerViewController.swift in Sources */,
+				80D10AC725A3AC8000E44DD4 /* DoggosViewController.swift in Sources */,
+				80D10AF625A3AD1700E44DD4 /* NetworkProvider.swift in Sources */,
+				80D10AC325A3AC8000E44DD4 /* AppDelegate.swift in Sources */,
+				80D10AC525A3AC8000E44DD4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D10AD125A3AC8200E44DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D10ADA25A3AC8200E44DD4 /* TiaIosInterviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D10ADC25A3AC8200E44DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D10AE525A3AC8200E44DD4 /* TiaIosInterviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D10AD725A3AC8200E44DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D10ABE25A3AC8000E44DD4 /* TiaIosInterview */;
+			targetProxy = 80D10AD625A3AC8200E44DD4 /* PBXContainerItemProxy */;
+		};
+		80D10AE225A3AC8200E44DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D10ABE25A3AC8000E44DD4 /* TiaIosInterview */;
+			targetProxy = 80D10AE125A3AC8200E44DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D10AC825A3AC8000E44DD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D10AC925A3AC8000E44DD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D10ACD25A3AC8200E44DD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D10ACE25A3AC8200E44DD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D10AE725A3AC8200E44DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80D10AE825A3AC8200E44DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D10AEA25A3AC8200E44DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Y22U3H8R;
+				INFOPLIST_FILE = TiaIosInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AskTia.TiaIosInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D10AEB25A3AC8200E44DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Y22U3H8R;
+				INFOPLIST_FILE = TiaIosInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AskTia.TiaIosInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80D10AED25A3AC8200E44DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Y22U3H8R;
+				INFOPLIST_FILE = TiaIosInterviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AskTia.TiaIosInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiaIosInterview.app/TiaIosInterview";
+			};
+			name = Debug;
+		};
+		80D10AEE25A3AC8200E44DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Y22U3H8R;
+				INFOPLIST_FILE = TiaIosInterviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AskTia.TiaIosInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiaIosInterview.app/TiaIosInterview";
+			};
+			name = Release;
+		};
+		80D10AF025A3AC8200E44DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Y22U3H8R;
+				INFOPLIST_FILE = TiaIosInterviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AskTia.TiaIosInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiaIosInterview;
+			};
+			name = Debug;
+		};
+		80D10AF125A3AC8200E44DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Y22U3H8R;
+				INFOPLIST_FILE = TiaIosInterviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AskTia.TiaIosInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiaIosInterview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D10ABA25A3AC8000E44DD4 /* Build configuration list for PBXProject "TiaIosInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D10AE725A3AC8200E44DD4 /* Debug */,
+				80D10AE825A3AC8200E44DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D10AE925A3AC8200E44DD4 /* Build configuration list for PBXNativeTarget "TiaIosInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D10AEA25A3AC8200E44DD4 /* Debug */,
+				80D10AEB25A3AC8200E44DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D10AEC25A3AC8200E44DD4 /* Build configuration list for PBXNativeTarget "TiaIosInterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D10AED25A3AC8200E44DD4 /* Debug */,
+				80D10AEE25A3AC8200E44DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D10AEF25A3AC8200E44DD4 /* Build configuration list for PBXNativeTarget "TiaIosInterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D10AF025A3AC8200E44DD4 /* Debug */,
+				80D10AF125A3AC8200E44DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80D10AFF25A3B51300E44DD4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80D10B0025A3B51300E44DD4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D10AFF25A3B51300E44DD4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 80D10AB725A3AC8000E44DD4 /* Project object */;
+}
