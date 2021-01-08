@@ -43,10 +43,7 @@ class NetworkProvider {
                 return
             }
 
-            // Simulate bad network, don't remove this code
-            if Bool.random() {
-                completion?(getResponse.message)
-            }
+            completion?(getResponse.message)
         }).resume()
     }
 }
